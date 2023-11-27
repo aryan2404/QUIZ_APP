@@ -9,7 +9,7 @@ To get started with the quiz, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/quiz-application.git
+   https://github.com/aryan2404/QUIZ_APP
 Open the index.html file in your web browser to start the quiz.
 Usage
 Click on the answer buttons to select your answer.
