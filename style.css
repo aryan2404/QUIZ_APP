@@ -1,4 +1,3 @@
- 
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +6,10 @@
 
 }
 body{
-    background-color: #001e4d;
+    background-color: #9b80eb;
 }
 .app{
-background: #fff;
+background: #fcf1f1;
 width: 90%;
 max-width: 600px;
 margin: 100px auto 0;
@@ -20,7 +19,7 @@ padding: 30px;
 }
 .app h1{
     font-size: 25px;
-color: #001e4d;
+color: #3f83ef;
 font-weight: 600;
 border-bottom: 1px solid #333;
 padding-bottom: 30px;
@@ -31,14 +30,14 @@ padding-bottom: 30px;
 }
 .quiz h2{
     font-size:25px ;
-    color: #001e4d;
+    color: #2771e6;
     font-weight: 600;
 }
 .btn{
     margin: 10px 0;
     padding: 10px;
     background: #fff;
-    color: #222;
+    color: #070707;
     font-weight: 500;
     width: 100%;
     border: 1px solid #222;
@@ -70,8 +69,8 @@ padding-bottom: 30px;
 }
 
 .correct{
-  background: #9aeabc;
+  background: #0be569;
 }
 .incorrect{
-  background: #ff9393;
+  background: #df2222;
 }
