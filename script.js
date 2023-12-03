@@ -44,6 +44,24 @@ const questions = [
       { text: "Nepal", correct: false },
     ],
   },
+  {
+    question: "What country has the highest life expectancy??",
+    answers: [
+      { text: "Pakistan", correct: false },
+      { text: "India", correct: false },
+      { text: "China", correct: false },
+      { text: "Hong Kong", correct: true },
+    ],
+  },
+  {
+    question: "How many minutes are in a full week?",
+    answers: [
+      { text: "1000", correct: false },
+      { text: " 10,080", correct: true },
+      { text: "3600", correct: false },
+      { text: "600", correct: false },
+    ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
@@ -85,23 +103,6 @@ function resetState() {
     answerButton.removeChild(answerButton.firstChild);
   }
 }
-
-// function checkAnswer(correct) {
-//   if (correct) {
-//     score++;
-//   }
-//   if (currentQuestionIndex < questions.length - 1) {
-//     currentQuestionIndex++;
-//     showQuestion();
-//   } else {
-//     endQuiz();
-//   }
-// }
-
-// function endQuiz() {
-//   // Display the final score or any other end-of-quiz logic
-//   alert("Quiz completed! Your score is: " + score);
-// }
 
 function selectAnswer(e) {
   const selectedBtn = e.target;
